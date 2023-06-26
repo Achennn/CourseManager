@@ -1,0 +1,170 @@
+html {
+    background-color: #fbfcfd;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 81vh;
+    
+    margin-top: 68px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    
+    background-color: white;
+    
+    border-radius: 5px;
+    
+    box-shadow: 1px 1px 5px 1px #888888;
+
+}
+
+.logo {
+    width: 200px;
+    align-self: center;
+    margin-top: 50px;
+}
+
+h1 {
+    align-self: center;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+h4 {
+    align-self: center;
+}
+p {
+    align-self: center;
+}
+
+p1 {
+    margin-left: 20px;
+}
+
+p2 {
+    color: red;
+    margin-left: 20px;
+}
+
+p3 {
+    color: red;
+    font-size: 10px;
+}
+
+.button {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    
+}
+
+.teacher { 
+    width: 100%;
+    float: left;
+    background-color: #f06535;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 7px;
+}
+
+.teacher:hover {
+    background-color: orange;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.student {
+    width: 100%;
+    float: right;
+    margin-left: 5px;
+    background-color: #f06535;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-top: 7px;
+}
+
+.student:hover {
+    background-color: orange;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#loginForm {
+    margin-top: 100px;
+    align-self: center;
+}
+
+.method {
+    display: block;
+    margin-top: 10px;
+}
+
+.register {
+    align-self: center;
+}
+
+.loginButton {
+    margin-left: 30%;
+    
+}
+
+#regForm {
+    margin-top: 50px;
+    align-self: center;
+}
+
+select {
+    width: 100%;
+    height: 23px;
+}
+
+.selectGender {
+    margin-left: 20px;
+    width: 153px;
+    height: 23px;
+}
+
+.stayLeftButton {
+    margin-left: 20px;
+}
+
+.stayLeftLabel {
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.stayLeftInput {
+    margin-left: 20px;
+}
+
+section {
+    align-self: center;
+}
+table {
+    border: 1px solid #001963;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed #001963;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+}
+
+
+
+
+
+
+
